@@ -1,0 +1,46 @@
+https://zindi.africa/competitions/fraud-detection-in-electricity-and-gas-consumption-challenge/data
+
+
+Certainly, here's a comprehensive explanation of the provided variable definitions:
+
+**Client Data:**
+
+* **Client_id:** A unique identifier for each customer.
+
+* **District:** The district within which the customer resides.
+
+* **Client_catg:** A category that the customer belongs to, potentially indicating different usage patterns or billing structures.
+
+* **Region:** The broader region where the customer is located.
+
+* **Creation_date:** The date on which the client account was created.
+
+* **Target:** A binary variable indicating whether the client is involved in fraudulent activity (1) or not (0).
+
+**Invoice Data:**
+
+* **Client_id:** A unique identifier for the customer associated with the invoice.
+
+* **Invoice_date:** The date on which the invoice was generated.
+
+* **Tarif_type:** The type of tariff plan or billing structure applied to the customer.
+
+* **Counter_number:** The unique identifier for the meter or counter used for measuring the customer's consumption.
+
+* **Counter_statue:** The current operational status of the meter, indicating whether it is functioning correctly, malfunctioning, or in an inactive state.
+
+* **Counter_code:** A code that further specifies the condition or status of the meter.
+
+* **Reading_remarque:** Notes or comments recorded by an STEG agent during their visit to the customer's premises. These remarks may provide insights into the meter's condition or the customer's usage habits.
+
+* **Counter_coefficient:** An additional multiplier applied to the customer's consumption when it exceeds the predefined standard consumption limits.
+
+* **Consommation_level_1-4:** Four different levels of consumption for the customer, potentially representing different months or periods in the billing cycle.
+
+* **Old_index:** The previous month's index value, which may be used to track consumption trends.
+
+* **New_index:** The current month's index value, indicating the latest consumption level.
+
+* **Months_number:** The number of months covered by the invoice.
+
+* **Counter_type:** The type of meter or counter used to measure the customer's consumption, potentially differentiating between analog and digital meters.
